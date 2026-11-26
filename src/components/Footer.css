@@ -1,0 +1,46 @@
+.agency-footer {
+  background: var(--bg-dark);
+  color: #d1fae5;
+  margin-top: auto;
+}
+
+.agency-footer-inner {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.agency-footer-brand {
+  display: block;
+  font-size: 1.05rem;
+  color: #ffffff;
+}
+
+.agency-footer-meta {
+  margin: 0.25rem 0 0;
+  font-size: 0.88rem;
+  color: #99f6e4;
+}
+
+.agency-footer-links {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.agency-footer-links a:hover {
+  color: #ffffff;
+}
+
+.agency-footer-bottom {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 0.82rem;
+  color: #99f6e4;
+}
